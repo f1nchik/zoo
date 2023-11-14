@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("фон.jpg");
+    font-family: 'Kanit', sans-serif;
+    background-size: cover;
+
+}
+
+.hero {
+    background-image: url("zoo.jpg");
+    /* нужно,что-бы margin не выходил за пределы */
+    overflow: hidden;
+    text-align: center;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    margin: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.514);
+    margin-top: 20px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 5px
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.hero p {
+    text-align: right;
+    background-color: #ffffffb7;
+    width: 60%;
+    margin-left: 40%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    margin: 40px 10px 20px;
+}
+
+img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    max-width: 45%;
+    margin-right: 20px;
+
+
+}
+
+.right {
+    vertical-align: middle;
+    margin-right: 20px;
+    max-width: 45%;
+}
+
+p {
+   
+}
+
+h3 {
+    text-align: center;
+
+
+    
+}
+
+#aboutUs {
+    text-align: center;
+}
+
+#zoos {
+    text-align: center;
+}
+
+#zoos div {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    width: 27%;
+    padding: 50px 0;
+
+}
+
+
+
+#zls {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#zd {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#zoos img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+}
+
+#zoos h3 {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    font-size: 24px;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+#zoos ul {
+    background-color: rgba(255, 255, 255, 0.575);
+    margin: 20px 0;
+}
+
+#team img {
+    display: inline-block;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    object-fit: cover;
+}
+
+
+
+.worker {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff2a;
+    box-sizing: border-box;
+
+}
+
+#team {
+    text-align: center;
+}
+
+.worker p {
+    margin-bottom: 20px;
+}
+
+#feedback p {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center;
+  
+}
+
+input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 400px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    outline: none;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    outline: none;
+}
+
+button {
+    font-family: 'Kanit', sans-serif;
+    background-color: #ffffff57;
+    padding: 0 15px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+    transition: 0.3s;
+    border: none;
+}
+
+button:hover {
+    background-color: #ffffff8f;
+    cursor: pointer;
+}
+
+.hero a {
+    margin: 20px 0 40px;
+}
+
+
+
+@media (max-width:600px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        text-align: left;
+        width: 90%;
+        margin: auto;
+    }
+    #info{
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+    #info p{
+        text-align: left;
+    }
+    #aboutUs img{
+        max-width: 90%;
+
+    }
+    #zoos div{
+        width: 90%;
+        margin: 10px;
+    }
+    .worker{
+        width: 90%;
+    }
+
+
+    
+}
